@@ -1,0 +1,29 @@
+Traversy Media = 2021 Bootstrap CrashCourse 
+  -- Cat Wrangler Website
+
+Bootstrap 5, no longer have to import jquery
+
+the downside of using the CDN is that you cannot update any source files 
+
+if you download the Source Files for bootstrap you can use SASS
+-- SASS lets you edit the bootstrap variables. it is a precompiler
+
+in html - emmett and drop the bootstrap CDN above the title for CSS
+          drop bootstrap CDN above the closing body tag for JS & Popper
+
+creating the navbar in bootstrap
+
+*** remember HTML shorthand in VSCode:
+
+  nav.navbar.navbar-expand-lg.bg-dark.navbar-dark 
+= <nav class="navbar navbar-expand-lg bg-dark navbar-dark"></nav>
+
+in the nav-bar -- navbar-dark       = makes the text light (so it will show up)
+                  navbar-expand-lg  = set it so the navbar will show on the screen until it is reduced by a certain amount.
+                                        it could be set to sm (for small) and the screen would have to shrink smaller before the text stopped displaying
+		  ms-auto           = margin start-auto -- in this project we pushed the #learn, #questions, & #instructors to the right in the navbar
+
+ 	
+			
+
+
